@@ -1,0 +1,31 @@
+class Main {
+  public static void main(String[] args) {
+    
+    // 변수의 선언
+    //{접근제어자} {static}
+    // <자료형> 변수이름 {=값};
+
+    // 접근제어자
+    // private : 자기 클래스 안에서만 접근이 가능한
+    // protect
+    // default
+    // public : 어디서든 접근이 가능한
+
+    //자료형
+    //<정수>
+    //short
+    //int
+    //long
+    //long long int
+
+    //<실수>
+    //float
+    //double
+    
+    //<문자>
+    //char
+
+    //<기타>
+    //byte
+    //boolean
+  }
