@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    
+    Scanner scan = new Scanner(System.in);
+    int n, m;
+
+    n = scan.nextInt();
+    m = scan.nextInt();
+
+    //산술 연산자
+    System.out.println(String.valueOf(n) + " + " + String.valueOf(m) + " = " + String.valueOf(n+m));
+    System.out.println(String.valueOf(n) + " - " + String.valueOf(m) + " = " + String.valueOf(n-m));
+    System.out.println(String.valueOf(n) + " * " + String.valueOf(m) + " = " + String.valueOf(n*m));
+    System.out.println(String.valueOf(n) + " / " + String.valueOf(m) + " = " + String.valueOf(n/m));
+    System.out.println(String.valueOf(n) + " % " + String.valueOf(m) + " = " + String.valueOf(n%m));
+
+    //부등식
+    System.out.println(String.valueOf(n) + " > " + String.valueOf(m) + " = " + String.valueOf(n>m));
+    System.out.println(String.valueOf(n) + " >= " + String.valueOf(m) + " = " + String.valueOf(n>=m));
+    System.out.println(String.valueOf(n) + " < " + String.valueOf(m) + " = " + String.valueOf(n<m));
+    System.out.println(String.valueOf(n) + " <= " + String.valueOf(m) + " = " + String.valueOf(n<=m));
+    System.out.println(String.valueOf(n) + " == " + String.valueOf(m) + " = " + String.valueOf(n==m));
+    System.out.println(String.valueOf(n) + " != " + String.valueOf(m) + " = " + String.valueOf(n!=m));
+
+    //논리 연산자
+    
+    // (논리식) && (논리식) : 그리고 (and)
+    // (논리식) || (논리식) : 또는 (or)
+    // !(논리식) : 아니다 (not)
+    
+
